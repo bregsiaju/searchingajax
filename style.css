@@ -1,0 +1,159 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+nav {
+   display: flex;
+   background-color: #5bd1ff;
+   justify-content: space-between;
+   padding: 0 40px;
+   height: 50px;
+   align-items: center;
+   color: #ffffff;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+}
+
+nav ul li a {
+   color: #ffffff;
+   text-decoration: none;
+   padding: 15px 10px;
+   display: block;
+}
+
+nav ul li a:hover {
+   color: #004d6e;
+}
+
+nav .logo {
+   font-family: 'Lobster', cursive;
+   letter-spacing: 1px;
+   font-size: 20px;
+}
+
+body, button {
+   font-family: 'Rubik', sans-serif;
+}
+
+form {
+   margin: 50px 20px 0 20px;
+}
+
+form input.search {
+   width: 20%;
+}
+
+section {
+   margin: 100px auto 150px auto;
+   width: 50%;
+}
+
+section.main {
+   margin: 40px auto 150px auto;
+}
+
+h1 {
+   text-align: center;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+}
+
+tr, td, th {
+   border: 1px solid black;
+   padding: 5px;
+   text-align: center;
+   text-transform: lowercase;
+}
+
+tr::first-line, td::first-line, th:first-line {
+   text-transform: capitalize;
+}
+
+th {
+   background-color: #a6e8f8;
+}
+
+a.update {
+   color: #009bcf;
+}
+
+a.delete {
+   color: red;
+}
+
+.form-group {
+   margin: 20px 0;
+}
+
+input {
+   width: 100%;
+   padding: 5px;
+   margin-top: 10px;
+}
+
+input[type="text"], input[type="date"], button[type="submit"] {
+   font-family: 'Rubik', sans-serif;
+   font-size: 16px;
+}
+
+button {
+   padding: 5px 10px;
+   border-radius: 5px;
+   background-color: #00bfff;
+   color: white;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #009bcf;
+}
+
+button.create {
+   background-color: #5dca88;
+   color: rgb(255, 255, 255);
+   border: none;
+   margin-top: 10px;
+   font-size: 16px;
+   font-weight: bold;
+   display: block;
+   float: right;
+}
+
+.message {
+   cursor: pointer;
+   box-shadow: 0px 4px #1a7940;
+}
+
+.message:active {
+   box-shadow: none;
+   position: relative;
+   top: 4px;
+}
+
+footer {
+   background-color:#5bd1ff;
+   padding: 10px 40px;
+   color: white;
+   text-align: center;
+}
+
+footer.fixed-bottom {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
